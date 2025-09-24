@@ -13,3 +13,14 @@ border:1px solid #ddd;
   text-decoration: none;
   border-radius: 6px;
 }
+.img {
+      float: right;       
+      margin-right: 40px; 
+      max-width: 500px;
+      height: auto;
+    }
+h1 {
+    margin-left: 20px;
+      text-align: center;
+      height: 50px;
+    }
