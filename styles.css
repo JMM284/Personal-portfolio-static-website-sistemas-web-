@@ -97,4 +97,40 @@ section {
 .about-text p {
   max-width: 700px;
 }
+/* skills */
+.skills {
+  background: #f9f9f9;
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.skills-container .skill-description {
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+
+.skill-img {
+  width: 100px; /* tamaño fijo para todas */
+  height: 100px; /* mantiene todas cuadradas */
+  object-fit: contain; /* mantiene proporción de la imagen */
+  border-radius: 10px; /* opcional, para un look más moderno */
+  transition: transform 0.3s;
+}
+
+.skill-img:hover {
+  transform: scale(1.1); /* efecto al pasar el cursor */
+}
+
 
