@@ -45,7 +45,7 @@ section {
   display: flex;
   align-items: right;
   justify-content: space-between;
-  background: #f9f9f9;
+  background: #f0f0f0;
   flex-wrap: wrap;
 }
 .intro-container {
@@ -108,7 +108,7 @@ section {
 }
 /* skills */
 .skills {
-  background: #f9f9f9;
+  background: #f0f0f0;
   padding: 60px 80px;
   text-align: center;
 }
@@ -141,7 +141,7 @@ section {
   transition: transform 0.3s;
 }
 
-.skill-img:hover {
+.skill-img {
   transform: scale(1.1); 
 }
 
@@ -178,7 +178,6 @@ section {
   border-radius: 12px;
   padding: 20px;
   margin-bottom: 20px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   gap: 20px;
   width: 100%;
   max-width: 700px;
@@ -186,9 +185,7 @@ section {
 
 .company-img {
   width: 80px;
-  margin-top: 80px;
   height: auto;
-  flex-shrink: 0;
 }
 
 .experience-details {
@@ -203,18 +200,10 @@ section {
 }
 
 .experience-header h3 {
-  margin: 0;
   font-size: 18px;
-  font-weight: bold;
 }
-
-.experience-header .date {
-  font-size: 14px;
-  color: #666;
-}
-
 .experience-details ul {
-  margin: 10px 0 0;
+  margin: 10px;
   padding-left: 20px;
 }
 
@@ -223,7 +212,32 @@ section {
   font-size: 15px;
   color: #444;
 }
+/* Work */
+.work {
+  background: #f0f0f0;
+  padding: 60px 80px;
+  text-align: center;
+}
 
+.work h2 {
+  display: inline-block;
+  background: #c4c9cc;
+  padding: 6px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+}
+
+.work-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.work-container .skill-description {
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
 
 
 
