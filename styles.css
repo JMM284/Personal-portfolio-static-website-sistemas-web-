@@ -10,8 +10,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  margin-bottom: 1rem;
+  padding: 16px 32px;
+  margin-bottom: 16px;
   background: #fff;
   border-bottom: 1px solid #ddd;
 }
@@ -32,7 +32,7 @@ body {
   padding: 5px 12px;
   text-decoration: none;
   border-radius: 6px;
-  font-size: 0.9em;
+  font-size: 14px;
 }
 
 
@@ -43,10 +43,16 @@ section {
 /* Intro */
 .intro {
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: space-between;
   background: #f9f9f9;
   flex-wrap: wrap;
+}
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .intro-text {
@@ -55,7 +61,7 @@ section {
 }
 
 .intro-text h1 {
-  font-size: 2em;
+  font-size: 32px;
   margin-bottom: 15px;
 }
 
@@ -90,8 +96,11 @@ section {
 }
 
 .about-text h2 {
-  font-size: 1.8em;
-  margin-bottom: 20px;
+  display: inline-block;
+  background: #c4c9cc;
+  padding: 6px 18px;
+  border-radius: 999px;
+  font-size: 14px;
 }
 
 .about-text p {
@@ -105,8 +114,11 @@ section {
 }
 
 .skills h2 {
-  font-size: 2em;
-  margin-bottom: 40px;
+  display: inline-block;
+  background: #c4c9cc;
+  padding: 6px 18px;
+  border-radius: 999px;
+  font-size: 14px;
 }
 
 .skills-container {
@@ -122,15 +134,97 @@ section {
 }
 
 .skill-img {
-  width: 100px; /* tamaño fijo para todas */
-  height: 100px; /* mantiene todas cuadradas */
-  object-fit: contain; /* mantiene proporción de la imagen */
-  border-radius: 10px; /* opcional, para un look más moderno */
+  width: 100px; 
+  height: 100px; 
+  object-fit: contain; 
+  border-radius: 10px; 
   transition: transform 0.3s;
 }
 
 .skill-img:hover {
-  transform: scale(1.1); /* efecto al pasar el cursor */
+  transform: scale(1.1); 
 }
+
+/* Experience */
+.experience {
+  background: #fff;
+  padding: 60px 80px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.experience h2 {
+  display: inline-block;
+  background: #c4c9cc;
+  padding: 6px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+}
+.experience-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.experience-container .experience-description {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.experience-card {
+  display: flex;
+  align-items: flex-start;
+  background: #e1dada;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  gap: 20px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.company-img {
+  width: 80px;
+  margin-top: 80px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.experience-details {
+  flex: 1;
+  text-align: left;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.experience-header .date {
+  font-size: 14px;
+  color: #666;
+}
+
+.experience-details ul {
+  margin: 10px 0 0;
+  padding-left: 20px;
+}
+
+.experience-details li {
+  margin-bottom: 6px;
+  font-size: 15px;
+  color: #444;
+}
+
+
+
 
 
