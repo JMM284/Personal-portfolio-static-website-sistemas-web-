@@ -166,7 +166,7 @@ section {
   flex-wrap: wrap;
   gap: 30px;
 }
-.experience-container .experience-description {
+.experience-description {
   width: 100%;
   margin-bottom: 20px;
 }
@@ -197,6 +197,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 18px;
 }
 
 .experience-header h3 {
