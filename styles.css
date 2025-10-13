@@ -426,6 +426,91 @@ section {
 }
 
 
+/* MEDIA para  MÓVILES */
+
+
+
+@media (max-width: 992px) {
+    
+    /* 1. en secciones se reduce el padding  */
+    section {
+        padding: 40px 20px;
+    }
+    
+    /* 2. TOOLBAR: Oculto los links y hago mas pequeño el padding  */
+    .toolbar {
+        padding: 10px 20px;
+    }
+    .toolbar .links {
+        display: none; 
+    }
+    .toolbar strong {
+        font-size: 24px;
+    }
+
+
+    /* 3. INTRO Y ABOUT: */
+    .intro-container, .about-container {
+        flex-direction: column; /* Cambia de fila a columna */
+        text-align: center;
+        gap: 30px;
+    }
+
+    /* Orden de los elementos en la introduccion imagen arriba texto abajo */
+    .intro-text {
+        order: 2; 
+        padding-right: 0;
+    }
+    .intro-img {
+        order: 1; 
+        max-width: 80%;
+        margin: 0 auto;
+        box-shadow: 10px 10px 0 #cac9c9;
+    }
+    .social-icons {
+        justify-content: center; /* Centra los iconos de figma github y twitter */
+    }
+    .about-img {
+        max-width: 80%;
+        margin: 0 auto 10px auto;
+        box-shadow: -10px 10px  #cac9c9;
+    }
+
+    /* 4. SKILLS: Mejoro la posicion de los iconos */
+    .skills-container {
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .skill-img {
+        width: 15%; 
+        min-width: 60px;
+        height: auto;
+    }
+
+
+    /* 5. EXPERIENCE Y WORK: Hago todo de las cartas mas grandes para que se vea mejor */
+    .experience-card, .work-card, .work-card.reverse {
+        flex-direction: column; 
+        max-width: 100%;
+        gap: 15px;
+    }
+    .company-img {
+        margin: 0 auto 10px auto; 
+    }
+    .experience-details, .work-details {
+        text-align: left; 
+    }
+
+
+    /* 6. TESTIMONIALS: lo pongo en una columna todo */
+    .testimonial-card {
+        width: 100%; 
+    }
+}
+
+
+
+
 
 
 
