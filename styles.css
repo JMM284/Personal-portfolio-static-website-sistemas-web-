@@ -391,7 +391,6 @@ section {
 .get-in-touch {
   background: #fff;
   text-align: center;
-   
 }
 .get-in-touch h2 {
   display: inline-block;
@@ -402,10 +401,10 @@ section {
 }
 .get-in-touch-container {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 30px; 
 }
 
 .get-in-touch-description {
@@ -414,28 +413,32 @@ section {
   color: #444;
   margin-bottom: 40px;
   max-width: 500px;
+  text-align: center;
 }
 .contact-info {
   display: flex;
   flex-direction: column; 
   align-items: center;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .contact-item{
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 24px;
+  gap: 15px;
+}
+.contact-icons{
+  display:flex;
   gap: 20px;
-}
+  align-items: center;
 
-.contact-item .img{
-  margin-right: 10px;
-  font-size: 30px; 
-  line-height: 1;
 }
-
+.contact-icons img{
+  width: 32px;
+  height: 32px;
+}
 
 
 
