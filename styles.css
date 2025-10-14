@@ -501,6 +501,7 @@ section {
     .social-icons {
         justify-content: center; /* Centra los iconos de figma github y twitter */
     }
+    
     .about-img {
         max-width: 80%;
         margin: 0 auto 10px auto;
