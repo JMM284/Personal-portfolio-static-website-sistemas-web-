@@ -152,8 +152,8 @@ section {
   width: 100px; 
   height: 100px; 
   border-radius: 10px;
+  ;
 }
-
 
 .skill-img {
   transform: scale(1.1); 
@@ -233,9 +233,10 @@ section {
   text-align: center;
 }
 
+
 .work h2 {
   display: inline-block;
-  background: #c4c9cc;
+  background: #eef1f6;
   padding: 6px 18px;
   border-radius: 999px;
   font-size: 14px;
@@ -243,50 +244,55 @@ section {
 
 .work-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 40px;
+  gap: 50px;
 }
 
 .work-description {
   width: 100%;
-  margin-bottom: 20px;
-  font-size: 16px;
-  color: #444;
+  margin-bottom: 4px;
+  font-size: 15px;
+  color: #777;
 }
-
 
 .work-card {
   display: flex;
-  align-items: center;
-  background: #e1dada;
-  border-radius: 12px;
-  padding: 20px;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
   width: 100%;
-  max-width: 900px;
-  gap: 20px;
-  text-align: left;
+  max-width: 1100px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.05);
 }
 
 .work-img {
   flex: 1;
+  background: #f0f2f5; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
 }
 .work-img img {
   width: 100%;
   border-radius: 12px;
+  object-fit: cover;
 }
 
 .work-details {
   flex: 1;
+  background: #ffffff;
+  padding: 30px;
 }
 .work-details h3 {
   font-size: 20px;
   margin-bottom: 10px;
+  color: #222;
 }
 .work-details p {
   font-size: 15px;
-  color: #444;
+  color: #555;
 }
 
 .work-card.reverse {
@@ -302,12 +308,18 @@ section {
 }
 
 .tech li {
-  background: #f2f2f2;
+  background: #f4f4f4;
   padding: 6px 14px;
   border-radius: 999px; 
-  font-size: 13px;
-  color: #333;
+  font-size: 12px;
+  color: #555;
 }
+
+/* Invertir tarjeta */
+.work-card.reverse {
+  flex-direction: row-reverse;
+}
+
 /* Testimonial */
 .testimonial {
   background: #f0f0f0;
@@ -466,7 +478,7 @@ section {
 
 
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     
     /* 1. en secciones se reduce el padding  */
     section {
