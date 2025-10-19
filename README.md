@@ -1,69 +1,70 @@
-# Personal-portfolio-Jorge-Molia
+# Personal Portfolio
 
-Este proyecto es un **portafolio personal** desarrollado como práctica en la asignatura de Sistemas Web.  
-La tarea consistía en **replicar un diseño de currículum ya existente** obtenido de Figma, añadiendo nuestros propios datos y adaptando el contenido a nuestra información personal y profesional donde pudieramos y en otras zonas infromacion inventada.
+This project is a **personal portfolio** developed as a practice assignment for the Web Systems course.  
+The task involved **replicating an existing curriculum design** obtained from Figma, adding our own data, and adapting the content to reflect our personal and professional information wherever possible, while inventing information in other areas.
 
-El sitio web es **estático** y está organizado en secciones principales:
+The website is **static** and organized into the following main sections:
 
-- **Información personal**: presentación breve, contacto y redes sociales.
-- **Habilidades**: herramientas y competencias técnicas.
-- **Experiencia laboral**: trabajos anteriores y responsabilidades desempeñadas.
-- **Proyectos realizados**: ejemplos de trabajos o proyectos destacados.
-- **Testimonios**: opiniones de personas relacionadas con la experiencia profesional.
+- **Personal Information**: brief introduction, contact info social media links and an about me.
+- **Skills**: technical tools and competencies.
+- **Work Experience**: previous jobs and responsibilities.
+- **Projects**: examples of projects.
+- **Testimonials**: feedback from people.
 
-Además, se ha realizado un **diseño responsivo**, que permite visualizar correctamente el portafolio en **dispositivos móviles y desktops**, adaptando la disposición de los elementos según el tamaño de pantalla.
+Additionally, the project features a **responsive design**, allowing the portfolio to display correctly on **mobile devices and desktops**, adapting the layout according to the screen size.
 
-## Capturas del proyecto
+---
 
-Aquí puedes ir insertando capturas de pantalla del `index.html` y secciones principales del portafolio.
+## Project Screenshots
 
-### Página de inicio
-![Captura de inicio](Capturas_Readme/Captura_Intro.png)
+Below are screenshots of the `index.html` sections of the portfolio.
 
-### Sección "About Me"
-![Captura About](Capturas_Readme/Captura_aboutme.png)
+### Intro Page
+![Intro Screenshot](Capturas_Readme/Captura_Intro.png)
 
-### Sección "Skills"
-![Captura Skills](Capturas_Readme/Captura_skills.png)
+### "About Me" Section
+![About Screenshot](Capturas_Readme/Captura_aboutme.png)
 
-### Sección "Experience"
-![Captura Experience](Capturas_Readme/Captura_Experience.png)
+### "Skills" Section
+![Skills Screenshot](Capturas_Readme/Captura_skills.png)
 
-### Sección "Work"
-![Captura Work](Capturas_Readme/Captura_Work.png)
+### "Experience" Section
+![Experience Screenshot](Capturas_Readme/Captura_Experience.png)
 
-### Sección "Testimonial"
-![Captura Testimonial](Capturas_Readme/Captura_Testimonial.png)
+### "Work" Section
+![Work Screenshot](Capturas_Readme/Captura_Work.png)
 
-### Sección "Contact"
-![Captura Contact](Capturas_Readme/Captura_GetinTouch.png)
+### "Testimonial" Section
+![Testimonial Screenshot](Capturas_Readme/Captura_Testimonial.png)
 
+### "Contact" Section
+![Contact Screenshot](Capturas_Readme/Captura_GetinTouch.png)
 
+---
 
-## Repositorio en GitHub
+## GitHub Repository
 [Personal Portfolio - GitHub](https://github.com/JMM284/Personal-portfolio-static-website-sistemas-web-)
 
-## Despliegue en Firebase
+## Firebase Deployment
 
-El proyecto tambien esta **desplegado en Firebase**, lo que permite acceder al portafolio a traves de un enlace.  
+The project is also **deployed on Firebase**, allowing access to the portfolio via a link.
 
-- **Enlace al sitio en Firebase**: [https://jmm284-f90de.web.app](https://jmm284-f90de.web.app)  
+- **Firebase site link**: [https://jmm284-f90de.web.app](https://jmm284-f90de.web.app)
 
-Esto permite que cualquier persona pueda visualizar el portafolio sin necesidad de descargar el código. 
+This allows anyone to view the portfolio without needing to download the code.
 
+---
 
-## Bibliografía
+## Bibliography
 
-- **Referencia para el diseño del curriculum:**  
-[Figma - Personal Portfolio Website Template](https://www.figma.com/design/kD5QhjtnLWNSAGu3L87CFI/Personal-Portfolio-Website-Template-%7C-Mobile---Desktop--Community-?node-id=0-1&p=f&t=0hPzrwwER3LBkVRm-0) – Plantilla usada como referencia para el diseño del curriculum.
+- **Curriculum design reference:**  
+[Figma - Personal Portfolio Website Template](https://www.figma.com/design/kD5QhjtnLWNSAGu3L87CFI/Personal-Portfolio-Website-Template-%7C-Mobile---Desktop--Community-?node-id=0-1&p=f&t=0hPzrwwER3LBkVRm-0) – Template used as a reference for designing the portfolio.
 
-- **Diseño responsive para móvil:**  
-[FreeCodeCamp - Media Queries para móvil](https://www.freecodecamp.org/espanol/news/ejemplo-css-media-query-ancho-de-pantalla-max-y-min-para-diseno-adaptable-en-movil) – Cómo adaptar el diseño a diferentes tamaños de pantalla.
+- **Responsive design for mobile:**  
+[FreeCodeCamp - Media Queries for Mobile](https://www.freecodecamp.org/espanol/news/ejemplo-css-media-query-ancho-de-pantalla-max-y-min-para-diseno-adaptable-en-movil) – How to adapt the layout for different screen sizes.
 
-- **Cómo funcionan los Flex y los Grid:**  
-[CSS-Tricks - Funcionamiento de Grids y Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox) – Guía para saber como funciona los distintos tipos de flex y el grid,
-aunque en el proyecto solo utilizo el Flex,
+- **How Flex and Grid work:**  
+[CSS-Tricks - Flex and Grid Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox) – A guide to understanding different types of Flex and Grid; in this project, only Flex was used.
 
-- **Sombras y bordes en CSS:**  
-[MDN - Box-shadow](https://developer.mozilla.org/es/docs/Web/CSS/box-shadow) – Aprender a crear sombras y bordes en css.
-
+- **Shadows and borders in CSS:**  
+[MDN - Box-shadow](https://developer.mozilla.org/es/docs/Web/CSS/box-shadow) – Learn how to create shadows and borders in CSS.
