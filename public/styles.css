@@ -493,7 +493,8 @@ section {
   padding: 15px 0;
 }
 
-/* MEDIA queries for MOBILE */
+
+/* MEDIA for MOBILE */
 @media (max-width: 768px) {
     
     /* 1. Reduce padding in sections */

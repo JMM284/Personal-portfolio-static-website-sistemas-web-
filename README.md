@@ -15,7 +15,7 @@ Additionally, the project features a **responsive design**, allowing the portfol
 
 ---
 
-## Project Screenshots
+## Project Screenshots Desktop
 
 Below are screenshots of the `index.html` sections of the portfolio.
 
@@ -40,6 +40,32 @@ Below are screenshots of the `index.html` sections of the portfolio.
 ### "Contact" Section
 ![Contact Screenshot](Capturas_Readme/Captura_GetinTouch.png)
 
+
+
+## Project Screenshots Mobile
+
+Below are screenshots of the `index.html` sections of the portfolio.
+
+### Intro Page
+![Intro Screenshot](Capturas_Readme/Intromobil.png)
+
+### "About Me" Section
+![About Screenshot](Capturas_Readme/aboutmobil.png)
+
+### "Skills" Section
+![Skills Screenshot](Capturas_Readme/skillsmobil.png)
+
+### "Experience" Section
+![Experience Screenshot](Capturas_Readme/Experiencemobil.png)
+
+### "Work" Section
+![Work Screenshot](Capturas_Readme/workmobil.png)
+
+### "Testimonial" Section
+![Testimonial Screenshot](Capturas_Readme/testimonialmobil.png)
+
+### "Contact" Section
+![Contact Screenshot](Capturas_Readme/getintouchmobil.png)
 ---
 
 ## GitHub Repository
