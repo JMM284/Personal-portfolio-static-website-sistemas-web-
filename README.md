@@ -61,8 +61,8 @@ Esto permite que cualquier persona pueda visualizar el portafolio sin necesidad 
 [FreeCodeCamp - Media Queries para móvil](https://www.freecodecamp.org/espanol/news/ejemplo-css-media-query-ancho-de-pantalla-max-y-min-para-diseno-adaptable-en-movil) – Cómo adaptar el diseño a diferentes tamaños de pantalla.
 
 - **Cómo funcionan los Flex y los Grid:**  
-[CSS-Tricks - Funcionamiento de Grids y Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox) – Guía para alinear y distribuir elementos en layouts complejos.
+[CSS-Tricks - Funcionamiento de Grids y Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox) – Guía para saber como funciona los distintos tipos de fles y el grid,
 
 - **Sombras y bordes en CSS:**  
-[MDN - Box-shadow](https://developer.mozilla.org/es/docs/Web/CSS/box-shadow) – Aprender a crear sombras y bordes estilizados en elementos.
+[MDN - Box-shadow](https://developer.mozilla.org/es/docs/Web/CSS/box-shadow) – Aprender a crear sombras y bordes en css.
 
