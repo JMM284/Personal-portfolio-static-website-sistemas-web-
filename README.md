@@ -40,24 +40,29 @@ Además, se ha realizado un **diseño responsivo**, que permite visualizar corre
 
 
 
-
-
-Link de git Hub:https://github.com/JMM284/Personal-portfolio-static-website-sistemas-web-
-
-
-Bibliografia:
-Link de donde se ha cogido la referencia para hacer el curriculum:
-https://www.figma.com/design/kD5QhjtnLWNSAGu3L87CFI/Personal-Portfolio-Website-Template-%7C-Mobile---Desktop--Community-?node-id=0-1&p=f&t=0hPzrwwER3LBkVRm-0
-
-Como hacer el diseño para movil :
-https://www.freecodecamp.org/espanol/news/ejemplo-css-media-query-ancho-de-pantalla-max-y-min-para-diseno-adaptable-en-movil
-
-
+## Repositorio en GitHub
+[Personal Portfolio - GitHub](https://github.com/JMM284/Personal-portfolio-static-website-sistemas-web-)
 
 ## Despliegue en Firebase
 
-El proyecto está **desplegado en Firebase**, lo que permite acceder al portafolio de manera pública a través de un enlace web.  
+El proyecto tambien esta **desplegado en Firebase**, lo que permite acceder al portafolio a traves de un enlace.  
 
 - **Enlace al sitio en Firebase**: [https://jmm284-f90de.web.app](https://jmm284-f90de.web.app)  
 
-Esto permite que cualquier persona pueda visualizar el portafolio sin necesidad de descargar el código. Además, el despliegue en Firebase asegura que los cambios futuros en el proyecto se puedan actualizar fácilmente en línea.
+Esto permite que cualquier persona pueda visualizar el portafolio sin necesidad de descargar el código. 
+
+
+## Bibliografía
+
+- **Referencia para el diseño del curriculum:**  
+[Figma - Personal Portfolio Website Template](https://www.figma.com/design/kD5QhjtnLWNSAGu3L87CFI/Personal-Portfolio-Website-Template-%7C-Mobile---Desktop--Community-?node-id=0-1&p=f&t=0hPzrwwER3LBkVRm-0) – Plantilla usada como referencia para el diseño del curriculum.
+
+- **Diseño responsive para móvil:**  
+[FreeCodeCamp - Media Queries para móvil](https://www.freecodecamp.org/espanol/news/ejemplo-css-media-query-ancho-de-pantalla-max-y-min-para-diseno-adaptable-en-movil) – Cómo adaptar el diseño a diferentes tamaños de pantalla.
+
+- **Cómo funcionan los Flex y los Grid:**  
+[CSS-Tricks - Funcionamiento de Grids y Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox) – Guía para alinear y distribuir elementos en layouts complejos.
+
+- **Sombras y bordes en CSS:**  
+[MDN - Box-shadow](https://developer.mozilla.org/es/docs/Web/CSS/box-shadow) – Aprender a crear sombras y bordes estilizados en elementos.
+
