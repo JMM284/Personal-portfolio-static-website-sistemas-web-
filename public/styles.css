@@ -1,4 +1,4 @@
-
+/* Body: Margins removed and base font defined */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -16,14 +16,16 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
+/* Links inside the toolbar */
 .toolbar .links {
   display: flex;
   gap: 1rem;
 }
+
+/* Sun icon for light/dark theme */
 .sun{
   border-left: 1px solid #ddd;
   padding-left: 16px;
-  
 }
 
 .toolbar .links a {
@@ -31,6 +33,7 @@ body {
   color: black;
 }
 
+/* Button to download CV */
 .btn {
   background: #000;
   color: #fff !important;
@@ -50,6 +53,8 @@ section {
   padding: 60px 80px;
   text-align: left;
 }
+
+/* Intro container: organizes text and image */
 .intro-container {
   display: flex;
   justify-content: left;
@@ -57,6 +62,7 @@ section {
   gap: 30px;
 }
 
+/* Controls the intro text */
 .intro-text {
   max-width: 800px;
   padding-right: 20px;
@@ -66,12 +72,15 @@ section {
   font-size: 32px;
   margin-bottom: 15px;
 }
+
+/* Social icons: positions social network images */
 .social-icons{
   display:flex;
   gap: 20px;
   align-items: center;
-
 }
+
+/* Social icon images */
 .social-icons img{
   width: 32px;
   height: 32px;
@@ -99,7 +108,7 @@ section {
   margin-bottom: 40px;
 }
 
-
+/* About container: organizes image and text */
 .about-container {
   display: flex;
   align-items: center;
@@ -137,6 +146,7 @@ section {
   font-size: 14px;
 }
 
+/* Skills container: organizes icons */
 .skills-container {
   display: flex;
   justify-content: center;
@@ -149,6 +159,7 @@ section {
   margin-bottom: 20px;
 }
 
+/* Controls how the image is displayed */
 .skill-item {
   display: flex;
   flex-direction: column;
@@ -163,7 +174,6 @@ section {
 .skill-item p {
   font-size: 14px;
   color: #000000;
-
 }
 
 /* Experience */
@@ -180,17 +190,21 @@ section {
   border-radius: 999px;
   font-size: 14px;
 }
+
+/* Experience container: organizes cards */
 .experience-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
 }
+
 .experience-description {
   width: 100%;
   margin-bottom: 20px;
 }
 
+/* Experience card: organizes image and details */
 .experience-card {
   display: flex;
   align-items: flex-start;
@@ -223,6 +237,8 @@ section {
 .experience-header h3 {
   font-size: 18px;
 }
+
+/* List of tasks performed in each job */
 .experience-details ul {
   margin: 10px;
   padding-left: 20px;
@@ -233,13 +249,13 @@ section {
   font-size: 15px;
   color: #444;
 }
+
 /* Work */
 .work {
   background: #fff;
   padding: 60px 80px;
   text-align: center;
 }
-
 
 .work h2 {
   display: inline-block;
@@ -249,6 +265,7 @@ section {
   font-size: 14px;
 }
 
+/* Work container: organizes project cards */
 .work-container {
   display: flex;
   flex-direction: column;
@@ -263,6 +280,7 @@ section {
   color: #777;
 }
 
+/* Project card: organizes image and details */
 .work-card {
   display: flex;
   background: #fff;
@@ -273,6 +291,7 @@ section {
   box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.05);
 }
 
+/* Project image */
 .work-img {
   flex: 1;
   background: #f0f2f5; 
@@ -281,17 +300,20 @@ section {
   align-items: center;
   padding: 25px;
 }
+
 .work-img img {
   width: 100%;
   border-radius: 12px;
   object-fit: cover;
 }
 
+/* Project details: title, description, and technologies */
 .work-details {
   flex: 1;
   background: #ffffff;
   padding: 30px;
 }
+
 .work-details h3 {
   font-size: 20px;
   margin-bottom: 10px;
@@ -302,9 +324,12 @@ section {
   color: #555;
 }
 
+/* Reverses card layout for the second card */
 .work-card.reverse {
   flex-direction: row-reverse;
 }
+
+/* Technologies used in the project */
 .tech {
   display: flex;
   flex-wrap: wrap;
@@ -314,7 +339,7 @@ section {
   padding: 0;
 }
 
-.tech li {
+.tech li {  
   background: #f4f4f4;
   padding: 6px 14px;
   border-radius: 999px; 
@@ -322,7 +347,7 @@ section {
   color: #555;
 }
 
-/* Invertir tarjeta */
+/* Invert card layout */
 .work-card.reverse {
   flex-direction: row-reverse;
 }
@@ -342,6 +367,7 @@ section {
   font-size: 14px;
 }
 
+/* Testimonial container: organizes testimonial cards */
 .testimonial-container {
   display: flex;
   flex-wrap: wrap;
@@ -357,6 +383,7 @@ section {
   margin-bottom: 40px;
 }
 
+/* Testimonial card: organizes avatar, opinion, and author */
 .testimonial-card {
   display: flex;
   align-items: center;        
@@ -369,7 +396,7 @@ section {
   flex-direction: column;
 }
 
-/* Avatar circular */
+/* Circular avatar */
 .testimonial-card .avatar {
   background: #eee;
   border-radius: 50%;
@@ -400,12 +427,12 @@ section {
   margin-top: 4px;
 }
 
-
 /* get in touch */
 .get-in-touch {
   background: #fff;
   text-align: center;
 }
+
 .get-in-touch h2 {
   display: inline-block;
   background: #c4c9cc;
@@ -413,6 +440,8 @@ section {
   border-radius: 999px;
   font-size: 14px;
 }
+
+/* Contact container: organizes info and social links */
 .get-in-touch-container {
   display: flex;
   flex-direction: column; 
@@ -429,6 +458,8 @@ section {
   max-width: 500px;
   text-align: center;
 }
+
+/* Contact info: positions email and phone correctly */
 .contact-info {
   display: flex;
   flex-direction: column; 
@@ -436,6 +467,7 @@ section {
   width: 100%;
   margin-bottom: 30px;
 }
+
 .contact-item{
   display: flex;
   align-items: center;
@@ -447,12 +479,13 @@ section {
   display:flex;
   gap: 20px;
   align-items: center;
-
 }
+
 .contact-icons img{
   width: 32px;
   height: 32px;
 }
+
 /* copyright */
 .copyright{
   background-color:#f0f0f0;
@@ -460,31 +493,15 @@ section {
   padding: 15px 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* MEDIA para  MÓVILES */
+/* MEDIA queries for MOBILE */
 @media (max-width: 768px) {
     
-    /* 1. en secciones se reduce el padding  */
+    /* 1. Reduce padding in sections */
     section {
         padding: 40px 20px;
     }
     
-    /* 2. TOOLBAR: Oculto los links y hago mas pequeño el padding  */
+    /* 2. TOOLBAR: Hide links and reduce padding */
     .toolbar {
         padding: 10px 20px;
     }
@@ -495,15 +512,14 @@ section {
         font-size: 24px;
     }
 
-
-    /* 3. INTRO Y ABOUT: */
+    /* 3. INTRO AND ABOUT */
     .intro-container, .about-container {
-        flex-direction: column; /* Cambia de fila a columna */
+        flex-direction: column; /* Change from row to column */
         text-align: center;
         gap: 30px;
     }
 
-    /* Orden de los elementos en la introduccion imagen arriba texto abajo */
+    /* Intro order: image above text */
     .intro-text {
         order: 2; 
         padding-right: 0;
@@ -515,7 +531,7 @@ section {
         box-shadow: 10px 10px 0 #cac9c9;
     }
     .social-icons {
-        justify-content: center; /* Centra los iconos de figma github y twitter */
+        justify-content: center; 
     }
     
     .about-img {
@@ -524,7 +540,7 @@ section {
         box-shadow: -10px 10px  #cac9c9;
     }
 
-    /* 4. SKILLS: Mejoro la posicion de los iconos */
+    /* 4. SKILLS: Improve icon positioning */
     .skills-container {
         justify-content: space-around;
         gap: 20px;
@@ -535,8 +551,7 @@ section {
         height: auto;
     }
 
-
-    /* 5. EXPERIENCE Y WORK: Hago todo de las cartas mas grandes para que se vea mejor */
+    /* 5. EXPERIENCE AND WORK: Make cards larger for better visibility */
     .experience-card, .work-card, .work-card.reverse {
         flex-direction: column; 
         max-width: 100%;
@@ -549,17 +564,8 @@ section {
         text-align: left; 
     }
 
-
-    /* 6. TESTIMONIALS: lo pongo en una columna todo */
+    /* 6. TESTIMONIALS: arrange all in a column */
     .testimonial-card {
         width: 100%; 
     }
 }
-
-
-
-
-
-
-
-
