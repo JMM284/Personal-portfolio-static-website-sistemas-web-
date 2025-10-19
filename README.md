@@ -15,7 +15,7 @@ Además, se ha realizado un **diseño responsivo**, que permite visualizar corre
 
 ## Capturas del proyecto
 
-> Aquí puedes ir insertando capturas de pantalla del `index.html` y secciones principales del portafolio.
+Aquí puedes ir insertando capturas de pantalla del `index.html` y secciones principales del portafolio.
 
 ### Página de inicio
 ![Captura de inicio](Capturas_Readme/Captura_Intro.png)
